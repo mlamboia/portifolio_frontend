@@ -1,3 +1,11 @@
 {
-  "app_title": "Hello, my name is Matheus!"
+  "title": "Matheus",
+  "hello": "Hello,",
+  "im_matheus": "I am Matheus",
+  "fullstack_developer": "Fullstack Developer",
+  "home": "Home",
+  "about": "About",
+  "skills": "Skills",
+  "works": "Works",
+  "contact": "Contact"
 }
