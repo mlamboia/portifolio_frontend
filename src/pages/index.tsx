@@ -4,6 +4,10 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import nextI18nConfig from "../../next-i18next.config.mjs";
 import Navbar from "../components/navbar";
 import Home from "../components/home";
+import About from "../components/about";
+import Skills from "../components/skills";
+import Works from "../components/works";
+import Contact from "../components/contact";
 
 export const getStaticProps = async ({ locale }: { locale: string }) => ({
   props: {
@@ -24,10 +28,13 @@ export default function App() {
         <meta name="description" content="Matheus Lamboia portifolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex min-h-screen flex-col items-center bg-black">
+      <main className="flex flex-col items-center bg-gradient-to-b dark:from-black dark:to-stone-950 from-slate-800 to-slate-700">
         <Navbar />
-
         <Home />
+        <About />
+        <Skills />
+        <Works />
+        <Contact />
       </main>
     </>
   );

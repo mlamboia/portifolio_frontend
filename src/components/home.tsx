@@ -5,11 +5,11 @@ export default function Home() {
 
   return (
     <>
-      <section className="m-auto grid h-full w-full grid-cols-2 gap-4">
-        <div className="ml-14 text-6xl sm:text-4xl sm:text-sm">
-          <h1 className="text-white">{t("hello")}</h1>
-          <h1 className="text-white">{t("im_matheus")}</h1>
-          <h1 className="text-white">{t("fullstack_developer")}</h1>
+      <section id="home" className="m-auto grid w-full h-[calc(100vh-50px)] md:grid-cols-2">
+        <div className="md:pl-14 flex flex-col justify-center">
+          <h1 className="md:text-6xl text-4xl text-white md:text-left text-center">{t("hello")}</h1>
+          <h1 className="md:text-6xl text-4xl text-white md:text-left text-center">{t("im_matheus")}</h1>
+          <h1 className="md:block text-6xl hidden text-white md:text-left text-center">{t("fullstack_developer")}</h1>
         </div>
         <div></div>
       </section>
