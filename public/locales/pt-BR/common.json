@@ -1,3 +1,11 @@
 {
-  "app_title": "Ola, meu nome é Matheus!"
+  "title": "Matheus",
+  "hello": "Ola!",
+  "im_matheus": "Eu sou o Matheus",
+  "fullstack_developer": "Desenvolvedor Fullstack",
+  "home": "Início",
+  "about": "Sobre",
+  "skills": "Skills",
+  "works": "Empregos",
+  "contact": "Contato"
 }
