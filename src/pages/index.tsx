@@ -13,7 +13,7 @@ export const getStaticProps = async ({ locale }: { locale: string }) => ({
   props: {
     ...(await serverSideTranslations(locale, ["common"], nextI18nConfig, [
       "en",
-      "pt-BR",
+      "pt",
     ])),
   },
 });
