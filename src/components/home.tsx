@@ -12,7 +12,7 @@ export default function Home() {
           <h2 className="md:text-6xl text-4xl text-white md:text-left text-center">{t("im_matheus")}</h2>
           <h2 className="md:text-4xl text-2xl mt-4 text-white md:text-left text-center">{t("fullstack_developer")}</h2>
 
-          <Link className="flex align-center justify-center self-center md:self-start mt-4 text-2xl md:text-3xl text-white bg-blue-950 rounded p-1 w-60" href="#contact">
+          <Link className="flex align-center justify-center self-center md:self-start mt-4 text-2xl md:text-3xl text-white bg-stone-900 dark:bg-blue-950 rounded p-1 w-60" href="#contact">
             {t("contact")}
           </Link>
         </div>
