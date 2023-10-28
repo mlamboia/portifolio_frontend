@@ -28,8 +28,6 @@ export default function Navbar() {
     }
   ]
 
-  console.log(nav)
-
   return (
     <>
       <section className="sticky top-0 w-full mx-auto z-40 backdrop-blur flex-none transition-colors duration-500 lg:z-50">
@@ -69,7 +67,7 @@ export default function Navbar() {
           </span>
 
           {nav && (
-            <div className="flex flex-col absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-stone-950">
+            <div className="flex flex-col absolute top-0 left-0 w-full h-screen bg-gradient-to-b">
               <span className="text-end pr-8 pt-8 text-4xl text-white" onClick={() => setNav(!nav)}>X</span>
               <ul className="flex flex-col m-auto pb-8 justify-center items-center">
                 {links.map(({ link, content }) => (

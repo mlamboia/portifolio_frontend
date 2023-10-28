@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Roboto-Light";
-  src: url('../../assets/Roboto/Roboto-Light.ttf');
+  src: url('../../public/assets/Roboto/Roboto-Light.ttf');
   font-weight: 400;
   font-style: normal;
 }
@@ -16,4 +16,21 @@
 html {
   scroll-behavior: smooth;
   scroll-padding: 5rem;
+}
+
+@keyframes shadow-pulse {
+  0% {
+    filter: drop-shadow(0.5rem 0.25rem 0.5rem rgba(204, 204, 204, 0.8));
+  }
+  50% {
+    filter: drop-shadow(0.75rem 0.5rem 0.75rem rgba(204, 204, 204, 1));
+  }
+  100% {
+    filter: drop-shadow(0.5rem 0.25rem 0.5rem rgba(204, 204, 204, 0.8));
+  }
+}
+
+.photo-pentagon {
+  animation: shadow-pulse 4s infinite;
+  max-width: max(40vw, 20rem);
 }
