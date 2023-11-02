@@ -5,11 +5,23 @@ export default function About() {
 
   return (
     <>
-      <section id="about" className="m-auto grid py-14 w-full h-[calc(100vh-50px)] grid-cols-2 gap-4">
-        <div className="ml-14 text-6xl sm:text-4xl">
-          <h1 className="text-white">{t("about")}</h1>
+      <section id="about" className="m-auto grid py-2 w-full h-[calc(100vh-50px)] md:grid-cols-2 gap-4">
+        <div className="flex self-center justify-center relative">
+          <img src="/assets/images/profile-no-bg.png" className="hidden md:block h-[80vh]"/>
         </div>
-        <div></div>
+        <div className="flex flex-col text-center md:text-left text-white">
+          <h1 className="mb-7 text-6xl sm:text-4xl">{t("about")}</h1>
+          <p className="mb-2 leading-relaxed">
+            {t('about_first_paragraph')}
+          </p>
+          <p className="mb-2 hidden md:block leading-relaxed">
+            {t('about_second_paragraph')}
+          </p>
+
+          <p className="hidden md:block leading-relaxed">
+            {t('about_third_paragraph')}
+          </p>
+        </div>
       </section>
     </>
   );

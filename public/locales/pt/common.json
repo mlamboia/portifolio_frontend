@@ -7,5 +7,8 @@
   "about": "Sobre",
   "skills": "Skills",
   "works": "Empregos",
-  "contact": "Contato"
+  "contact": "Contato",
+  "about_first_paragraph": "Como vai? Me chamo Matheus. Sou um desenvolvedor Fullstack com mais de 3 anos de experiência em Node.js e Ruby on Rails. Minha paixão é criar soluções tecnológicas inovadoras que melhoram a comunicação e a experiência do usuário. Tenho habilidades sólidas no desenvolvimento de sistemas de comunicação em tempo real, como chats e sistemas de telefonia, garantindo alta performance e escalabilidade.",
+  "about_second_paragraph": "Minha experiência abrange o desenvolvimento de APIs RESTful e WebSocket para suportar comunicação em tempo real, a integração de sistemas de telefonia para automatizar chamadas e notificações, e a criação de aplicativos web eficientes e eficazes com Ruby on Rails. Sou versátil, trabalhando em todas as camadas de uma aplicação, do front-end ao back-end, para garantir uma experiência de usuário coesa.",
+  "about_third_paragraph": "Meu histórico de projetos bem-sucedidos demonstra meu compromisso em impulsionar a eficiência e a qualidade nas soluções de comunicação. Estou sempre pronto para novos desafios e oportunidades para tornar a comunicação mais eficaz e eficiente."
 }
