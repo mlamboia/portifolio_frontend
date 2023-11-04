@@ -28,4 +28,4 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-yarn.lcok
+yarn.lock
