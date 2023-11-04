@@ -80,6 +80,26 @@ html {
   background-image: url("../../public/assets/images/icon-redis.svg");
 }
 
+[data-icon="whatsapp"]::before {
+  background-image: url("../../public/assets/images/icon-whatsapp.svg");
+  margin-top: 3px;
+}
+
+[data-icon="telegram"]::before {
+  background-image: url("../../public/assets/images/icon-telegram.svg");
+  margin-top: 3px;
+}
+
+[data-icon="linkedin"]::before {
+  background-image: url("../../public/assets/images/icon-linkedin.svg");
+  margin-top: 3px;
+}
+
+[data-icon="github"]::before {
+  background-image: url("../../public/assets/images/icon-github.svg");
+  margin-top: 3px;
+}
+
 
 [data-image] {
   position: relative;
