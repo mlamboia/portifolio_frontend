@@ -34,3 +34,48 @@ html {
   animation: shadow-pulse 4s infinite;
   max-width: max(40vw, 20rem);
 }
+
+[data-icon] {
+  position: relative;
+}
+
+[data-icon]::before {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+[data-icon="jquery"]::before {
+  background-image: url("../../public/assets/images/icon-jquery.svg");
+}
+
+[data-icon="ruby"]::before {
+  background-image: url("../../public/assets/images/icon-ruby.svg");
+}
+
+[data-icon="nodejs"]::before {
+  background-image: url("../../public/assets/images/icon-nodejs.svg");
+}
+
+[data-icon="react"]::before {
+  background-image: url("../../public/assets/images/icon-react.svg");
+}
+
+[data-icon="tailwind"]::before {
+  background-image: url("../../public/assets/images/icon-tailwind.svg");
+}
+
+[data-icon="bootstrap"]::before {
+  background-image: url("../../public/assets/images/icon-bootstrap.svg");
+}
+
+[data-icon="postgres"]::before {
+  background-image: url("../../public/assets/images/icon-postgres.svg");
+}
+
+[data-icon="redis"]::before {
+  background-image: url("../../public/assets/images/icon-redis.svg");
+}
