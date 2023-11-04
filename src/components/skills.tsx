@@ -24,7 +24,7 @@ export default function Skills() {
         <div className="font-heading text-white h-full my-10 font-semibold grid grid-cols-2 gap-4 text-center place-items-center">
           {
             skills.map(({ id, name }) => (
-              <div className="border-b-2 border-stone-700 w-10/12 hover:scale-105 duration-300 cursor-default" data-icon={id}>
+              <div className="border-b-2 border-stone-700 w-10/12 hover:scale-105 duration-300 cursor-default" key={id} data-icon={id}>
                 <span className="ml-8">{name}</span>
               </div>
             ))

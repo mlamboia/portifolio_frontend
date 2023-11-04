@@ -10,5 +10,13 @@
   "contact": "Contato",
   "about_first_paragraph": "Como vai? Me chamo Matheus. Sou um desenvolvedor Fullstack com mais de 3 anos de experiência em Node.js e Ruby on Rails. Minha paixão é criar soluções tecnológicas inovadoras que melhoram a comunicação e a experiência do usuário. Tenho habilidades sólidas no desenvolvimento de sistemas de comunicação em tempo real, como chats e sistemas de telefonia, garantindo alta performance e escalabilidade.",
   "about_second_paragraph": "Minha experiência abrange o desenvolvimento de APIs RESTful e WebSocket para suportar comunicação em tempo real, a integração de sistemas de telefonia para automatizar chamadas e notificações, e a criação de aplicativos web eficientes e eficazes com Ruby on Rails. Sou versátil, trabalhando em todas as camadas de uma aplicação, do front-end ao back-end, para garantir uma experiência de usuário coesa.",
-  "about_third_paragraph": "Meu histórico de projetos bem-sucedidos demonstra meu compromisso em impulsionar a eficiência e a qualidade nas soluções de comunicação. Estou sempre pronto para novos desafios e oportunidades para tornar a comunicação mais eficaz e eficiente."
+  "about_third_paragraph": "Meu histórico de projetos bem-sucedidos demonstra meu compromisso em impulsionar a eficiência e a qualidade nas soluções de comunicação. Estou sempre pronto para novos desafios e oportunidades para tornar a comunicação mais eficaz e eficiente.",
+  "work_test_description": "<em>Total IP - 02/09/2019 até 01/10/2020.</em><p>Cargo: Estagiário.</p><p>Principais Atividades: Testes funcionais e automatização dos testes funcionais.</p>",
+  "work_dev_jr_description": "<em>Total IP - 01/10/2020 até 01/10/2021</em><p>Cargo: Desenvolvedor Full Stack Jr.</p><p>Principais Atividades: Tratar chamados, realizar internacionalização, trabalhar em melhorias para as funcionalidades presentes na aplicação e auxiliar novos funcionários do setor.</p>",
+  "work_dev_description": "<em>Total IP - 01/10/2021 até 01/10/2022</em><p>Cargo: Desenvolvedor Full Stack Pleno</p><p>Principais Atividades: Tratar chamados, trabalhar em melhorias para as funcionalidades presentes na aplicação, criar novas funcionalidades, auxiliar e treinar os funcionários do setor e avaliar e desenvolver integrações.</p>",
+  "work_s_dev_description": "<em>Total IP - 01/10/2022 até o dia atual</em><p>Cargo: Especialista em Desenvolvedor Full Stack</p><p>Principais Atividades: Desenvolver e mantar novas aplicações e funcionalidades em Ruby on Rails e Node.js, auxiliar e treinar os funcionários do setor e avaliar e desenvolver integrações.</p>",
+  "work_test": "Analista de Testes",
+  "work_dev_jr": "Desenvolvedor FullStack Jr",
+  "work_dev": "Desenvolvedor FullStack",
+  "work_s_dev": "Especialista em Desenvolvemento"
 }

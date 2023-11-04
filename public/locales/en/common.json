@@ -10,5 +10,13 @@
   "contact": "Contact",
   "about_first_paragraph": "How are you? My name is Matheus. I am a Fullstack developer with over 3 years of experience in Node.js and Ruby on Rails. My passion is to create innovative technological solutions that enhance communication and user experience. I have strong skills in developing real-time communication systems, such as chats and telephony systems, ensuring high performance and scalability.",
   "about_second_paragraph": "My experience includes the development of RESTful APIs and WebSocket to support real-time communication, the integration of telephony systems to automate calls and notifications, and the creation of efficient and effective web applications with Ruby on Rails. I am versatile, working in all layers of an application, from front-end to back-end, to ensure a cohesive user experience.",
-  "about_third_paragraph": "My track record of successful projects demonstrates my commitment to driving efficiency and quality in communication solutions. I am always ready for new challenges and opportunities to make communication more effective and efficient."
+  "about_third_paragraph": "My track record of successful projects demonstrates my commitment to driving efficiency and quality in communication solutions. I am always ready for new challenges and opportunities to make communication more effective and efficient.",
+  "work_test_description": "<em>Total IP - 09/02/2019 to 10/01/2020.</em><p>Position: Intern.</p><p>Main Activities: Functional testing and test automation functional.</p>",
+  "work_dev_jr_description": "<em>Total IP - 10/01/2020 to 10/01/2021</em><p>Position: Full Stack Developer Jr.</p><p>Main Activities: Handle tickets, carry out internationalization, work on improvements to the functionalities present in the application and assist new employees in the sector.</p>",
+  "work_dev_description": "<em>Total IP - 10/01/2021 to 10/01/2022</em><p>Position: Full Stack Developer</p><p>Main Activities: Handle tickets, work on improvements to the functionalities present in the application, create new functionalities, assist and train sector employees and evaluate and develop integrations.</p>",
+  "work_s_dev_description": "<em>Total IP - 10/01/2022 to current day</em><p>Position: Full Stack Developer Specialist</p><p>Main Activities: Develop and maintain new applications and functionalities in Ruby on Rails and Node.js, assist and train sector employees and evaluate and develop integrations.</p>",
+  "work_test": "Test Analyst",
+  "work_dev_jr": "FullStack Jr Developer",
+  "work_dev": "FullStack Developer",
+  "work_s_dev": "Development Specialist"
 }
