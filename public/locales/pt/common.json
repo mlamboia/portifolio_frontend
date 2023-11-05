@@ -18,5 +18,16 @@
   "work_test": "Analista de Testes",
   "work_dev_jr": "Desenvolvedor FullStack Jr",
   "work_dev": "Desenvolvedor FullStack",
-  "work_s_dev": "Especialista em Desenvolvemento"
+  "work_s_dev": "Especialista em Desenvolvemento",
+  "to": "Para",
+  "placeholder_to": "matheusvnl26@gmail.com",
+  "from": "De",
+  "placeholder_from": "voce@email.com.br",
+  "email_content": "E-mail Content",
+  "placeholder_email_content": "Olá Matheus! Gostaria de ...",
+  "send_email": "Enviar E-mail",
+  "sending_email": "Enviando e-mail...",
+  "error_email_not_valid": "Este e-mail não é válido!",
+  "error_message_too_short": "Mensagem muito pequena, por favor não se esqueça da saudação :D",
+  "unknow_error": "Erro desconhecido, favor tentar novamente mais tarde."
 }

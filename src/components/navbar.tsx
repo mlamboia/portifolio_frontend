@@ -1,11 +1,13 @@
 import { useTranslation } from "next-i18next";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 export default function Navbar() {
   const { t } = useTranslation("common") as { t: (key: string) => string };
   const [nav, setNav] = useState(false);
-  const links = [
+  const [activeSession, setActiveSession] = useState("");
+
+  const sections = [
     {
       link: "home",
       content: t("home")
@@ -28,6 +30,31 @@ export default function Navbar() {
     }
   ]
 
+  const handleScroll = () => {
+    const fromTop = window.scrollY;
+
+    for (const section of sections) {
+      const sectionElement = document.getElementById(section.link);
+      if (!sectionElement) continue;
+
+      if (
+        sectionElement.offsetTop - 200<= fromTop &&
+        sectionElement.offsetTop + sectionElement.offsetHeight - 200 > fromTop
+      ) {
+        setActiveSession(section.link);
+        break;
+      }
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <>
       <section className="sticky top-0 w-full mx-auto z-40 backdrop-blur flex-none transition-colors duration-500 lg:z-50">
@@ -38,9 +65,9 @@ export default function Navbar() {
             </Link>
             <ul className="font-heading align-end ml-auto mr-6 hidden space-x-12 font-semibold md:flex">
               {
-                links.map(({link, content}) => (
+                sections.map(({link, content}) => (
                   <li className="cursor-pointer capitalize text-xl hover:text-stone-400" key={link}>
-                    <Link href={"#" + link}>
+                    <Link href={"#" + link} data-active={activeSession == link} id={"link_" + link}>
                       {content}
                     </Link>
                   </li>
@@ -70,9 +97,9 @@ export default function Navbar() {
             <div className="flex flex-col absolute top-0 left-0 w-full h-screen bg-gradient-to-b">
               <span className="text-end pr-8 pt-8 text-4xl text-white" onClick={() => setNav(!nav)}>X</span>
               <ul className="flex flex-col m-auto pb-8 justify-center items-center">
-                {links.map(({ link, content }) => (
+                {sections.map(({ link, content }) => (
                   <li className="px-4 cursor-pointer capitalize py-6 text-4xl" key={link}>
-                    <Link onClick={() => setNav(!nav)} href={"#" + link}>
+                    <Link onClick={() => setNav(!nav)} href={"#" + link} data-active={activeSession == link} id={"link_" + link}>
                       {content}
                     </Link>
                   </li>

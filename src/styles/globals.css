@@ -18,6 +18,10 @@ html {
   scroll-padding: 5rem;
 }
 
+[data-active="true"] {
+  filter: brightness(0.5);
+}
+
 @keyframes shadow-pulse {
   0% {
     filter: drop-shadow(0.5rem 0.25rem 0.5rem rgba(204, 204, 204, 0.8));
@@ -42,8 +46,8 @@ html {
 [data-icon]::before {
   content: "";
   position: absolute;
-  width: 1rem;
-  height: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -80,6 +84,41 @@ html {
   background-image: url("../../public/assets/images/icon-redis.svg");
 }
 
+[data-icon="whatsapp"]::before {
+  background-image: url("../../public/assets/images/icon-whatsapp.svg");
+}
+
+[data-icon="telegram"]::before {
+  background-image: url("../../public/assets/images/icon-telegram.svg");
+}
+
+[data-icon="linkedin"]::before {
+  background-image: url("../../public/assets/images/icon-linkedin.svg");
+}
+
+[data-icon="github"]::before {
+  background-image: url("../../public/assets/images/icon-github.svg");
+}
+
+.about-man-coding {
+  --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
+  --m:
+    left   var(--_i,0%) top    var(--_g),
+    bottom var(--_i,0%) left   var(--_g),
+    top    var(--_i,0%) right  var(--_g),
+    right  var(--_i,0%) bottom var(--_g);
+  -webkit-mask: var(--m);
+          mask: var(--m);
+  filter: grayscale() blur(1px);
+  transition: .3s linear;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.about-man-coding:hover {
+  --_i: 10%;
+  filter: grayscale(0) blur(0.5px);
+}
 
 [data-image] {
   position: relative;
