@@ -22,7 +22,7 @@ export default function Works() {
             works.map(({id, name, description}) => (
               <div className="flex justify-center relative rounded align-center cursor-pointer" key={id}>
                 <div data-image={id}>
-                  <span className="work-description absolute top-0 left-0 m-4 opacity-0 delay-200">{ ReactHtmlParser(description) }</span>
+                  <span className="work-description text-sm absolute top-0 left-0 m-4 opacity-0 delay-200">{ ReactHtmlParser(description) }</span>
                   <span className="text-4xl sm:text-xl absolute bottom-0 right-0 z-10 opacity-90 dark:bg-black bg-slate-800 px-2 rounded">
                     {name}
                   </span>

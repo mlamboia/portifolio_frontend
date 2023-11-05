@@ -133,7 +133,7 @@ export default function Contact() {
               href="https://api.whatsapp.com/send?phone=5511944889842&text=Hello%20Matheus!"
               target="_blank"
               className="w-full text-center shadow bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
-              <span className="ml-6">Whatsapp</span>
+              <span className="ml-8">Whatsapp</span>
             </Link>
           </div>
 
@@ -143,7 +143,7 @@ export default function Contact() {
               href="https://t.me/matheusvnl?text=Hello%20Matheus!"
               target="_blank"
               className="w-full text-center shadow bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-              <span className="ml-6">Telegram</span>
+              <span className="ml-8">Telegram</span>
             </Link>
           </div>
 
@@ -153,7 +153,7 @@ export default function Contact() {
               href="https://linkedin.com/in/matheus-viana-nunes-lamboia-a1a70b1a4"
               target="_blank"
               className="w-full text-center shadow bg-blue-900 hover:bg-blue-950 text-white font-bold py-2 px-4 rounded">
-              <span className="ml-6">Linkedin</span>
+              <span className="ml-8">Linkedin</span>
             </Link>
           </div>
 
@@ -163,7 +163,7 @@ export default function Contact() {
               href="https://github.com/mlamboia"
               target="_blank"
               className="w-full text-center shadow bg-slate-900 hover:bg-slate-950 text-white font-bold py-2 px-4 rounded">
-              <span className="ml-6">Github</span>
+              <span className="ml-8">Github</span>
             </Link>
           </div>
         </div>
